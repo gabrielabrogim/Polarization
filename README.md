@@ -2,33 +2,31 @@
 This repository contains all scripts used throughout my undergraduate dissertation. 
 
 
-# 1. **Descrição do Projeto**
+## 1. **Descrição do Projeto**
 
-###  Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos dados sobre votações nominais da Câmara dos Deputados para os anos de 2003-2021. 
-\
-\
+### Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos dados sobre votações nominais da Câmara dos Deputados para os anos de 2003-2021. 
 
 
-# 2. **Organização dos Materias nas Pastas**
+## 2. **Organização dos Materias nas Pastas**
 
-### 2.1. Pasta Principal: Projeto Polarização
-### 2.2. Pastas Secundárias: 
-###      * CODES: Todos os Scripts Desenvolvidos para o Projeto
-###      * OUTPUT: Output dos scripts 1 e 2 (servem como imput para os scripts 3,4 e 5)
-###      * HTML: Output em .html dos scripts 3,4 e 5
-\
-\
+2.1. Pasta Principal: Projeto Polarização
+2.2. Pastas Secundárias: 
+      * CODES: Todos os Scripts Desenvolvidos para o Projeto
+      * OUTPUT: Output dos scripts 1 e 2 (servem como imput para os scripts 3,4 e 5)
+      * HTML: Output em .html dos scripts 3,4 e 5
 
-# 3. **Etapas / Scripts**
 
-### **1_polarizacao.R** -------------------------------------------------
-###
-###  Importa os dados do url da Câmara dos Deputados 
-###  * Corrige strings para um padrão único
-###  * Salva o df final como .csv
-###
-###  Input: Dados Portal da Transparência Câmara dos Deputados
-###  Output: "1_dados_camara.csv"
+
+## 3. **Etapas / Scripts**
+
+ **1_polarizacao.R** -------------------------------------------------
+
+  Importa os dados do url da Câmara dos Deputados 
+  * Corrige strings para um padrão único
+  * Salva o df final como .csv
+
+  Input: Dados Portal da Transparência Câmara dos Deputados
+  Output: "1_dados_camara.csv"
 \
 
 ### **2_clean_data.R**  --------------------------------------------------
