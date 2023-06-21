@@ -9,8 +9,8 @@ Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos
 
 ## 2. **Organização dos Materias nas Pastas**
 
-2.1. Pasta Principal: Projeto Polarização
-2.2. Pastas Secundárias: 
+2.1. Pasta Principal: Projeto Polarização \
+2.2. Pastas Secundárias: \
       * CODES: Todos os Scripts Desenvolvidos para o Projeto
       * OUTPUT: Output dos scripts 1 e 2 (servem como imput para os scripts 3,4 e 5)
       * HTML: Output em .html dos scripts 3,4 e 5
