@@ -64,7 +64,7 @@ Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos
   * Arrumar legenda/ordem dos partidos por ideologia
 
 
-**5_analise_votos.Rmd** ----------------------------------------
+**5_analise_votos.Rmd** ---------------------------------------- \
 
 **O que foi feito:** 
      * Padronizar nome dos partidos (ex: SD e SDD -> SOLIDARIEDADE)
