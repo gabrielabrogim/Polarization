@@ -4,7 +4,7 @@ This repository contains all scripts used throughout my undergraduate dissertati
 
 ## 1. **Descrição do Projeto**
 
-### Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos dados sobre votações nominais da Câmara dos Deputados para os anos de 2003-2021. 
+Esta série de scripts tem o objetivo de reliazar uma análise exploratória dos dados sobre votações nominais da Câmara dos Deputados para os anos de 2003-2021. 
 
 
 ## 2. **Organização dos Materias nas Pastas**
@@ -24,19 +24,17 @@ This repository contains all scripts used throughout my undergraduate dissertati
   Importa os dados do url da Câmara dos Deputados 
   * Corrige strings para um padrão único
   * Salva o df final como .csv
+  * Input: Dados Portal da Transparência Câmara dos Deputados
+  * Output: "1_dados_camara.csv"
 
-  Input: Dados Portal da Transparência Câmara dos Deputados
-  Output: "1_dados_camara.csv"
-\
 
-### **2_clean_data.R**  --------------------------------------------------
-###  * Organiza os dados "1_dados_camara.csv" 
-###  * Retira votações com menos de 257 votos
-###  * Salva o df final como .csv
-###
-###  Input: "1_dados_camara.csv"
-###  Output: "2c_dados_camara_cleaned.csv"
-\
+**2_clean_data.R**  --------------------------------------------------
+  * Organiza os dados "1_dados_camara.csv" 
+  * Retira votações com menos de 257 votos
+  * Salva o df final como .csv
+  * Input: "1_dados_camara.csv"
+  * Output: "2c_dados_camara_cleaned.csv"
+
 
 ### **3_analise_partido.Rmd** ----------------------------------------
 ###
